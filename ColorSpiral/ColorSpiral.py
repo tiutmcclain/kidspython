@@ -1,7 +1,8 @@
 import turtle
 colors = ['red','yellow','blue','orange','green','purple']
-sides=6
+# sides=6
 # changes 6 down to 2
+sides = eval(input("Enter a number of sides between 2 and 6:  "))
 t=turtle.Pen()
 turtle.bgcolor("black")
 for x in range(360):
